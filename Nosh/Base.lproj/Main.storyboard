@@ -27,6 +27,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5h8-jh-G9J">
                                 <rect key="frame" x="229" y="459" width="55" height="58"/>
                                 <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="TnCcloseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6tc-Rf-SUh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

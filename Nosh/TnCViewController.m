@@ -34,4 +34,8 @@
 }
 */
 
+
+- (IBAction)TnCcloseButton:(id)sender {
+    exit(0);
+}
 @end

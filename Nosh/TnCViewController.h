@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TnCViewController : UIViewController
+- (IBAction)TnCcloseButton:(id)sender;
 
 @end

@@ -15,6 +15,9 @@
 		305042B81C761851004C0B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305042B61C761851004C0B6C /* LaunchScreen.storyboard */; };
 		305042C31C761851004C0B6C /* NoshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305042C21C761851004C0B6C /* NoshTests.m */; };
 		305042CE1C761851004C0B6C /* NoshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305042CD1C761851004C0B6C /* NoshUITests.m */; };
+		305042DD1C761ACA004C0B6C /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305042DC1C761ACA004C0B6C /* AuthenticationViewController.m */; };
+		305042E01C761D2F004C0B6C /* TnCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305042DF1C761D2F004C0B6C /* TnCViewController.m */; };
+		305042E31C761F05004C0B6C /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305042E21C761F05004C0B6C /* RegistrationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		305042C91C761851004C0B6C /* NoshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		305042CD1C761851004C0B6C /* NoshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoshUITests.m; sourceTree = "<group>"; };
 		305042CF1C761851004C0B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305042DB1C761ACA004C0B6C /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		305042DC1C761ACA004C0B6C /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		305042DE1C761D2F004C0B6C /* TnCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnCViewController.h; sourceTree = "<group>"; };
+		305042DF1C761D2F004C0B6C /* TnCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnCViewController.m; sourceTree = "<group>"; };
+		305042E11C761F05004C0B6C /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		305042E21C761F05004C0B6C /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,12 @@
 				305042AE1C761851004C0B6C /* ViewController.h */,
 				305042AF1C761851004C0B6C /* ViewController.m */,
 				305042B11C761851004C0B6C /* Main.storyboard */,
+				305042E11C761F05004C0B6C /* RegistrationViewController.h */,
+				305042E21C761F05004C0B6C /* RegistrationViewController.m */,
+				305042DE1C761D2F004C0B6C /* TnCViewController.h */,
+				305042DF1C761D2F004C0B6C /* TnCViewController.m */,
+				305042DB1C761ACA004C0B6C /* AuthenticationViewController.h */,
+				305042DC1C761ACA004C0B6C /* AuthenticationViewController.m */,
 				305042B41C761851004C0B6C /* Assets.xcassets */,
 				305042B61C761851004C0B6C /* LaunchScreen.storyboard */,
 				305042B91C761851004C0B6C /* Info.plist */,
@@ -273,6 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305042DD1C761ACA004C0B6C /* AuthenticationViewController.m in Sources */,
+				305042E31C761F05004C0B6C /* RegistrationViewController.m in Sources */,
+				305042E01C761D2F004C0B6C /* TnCViewController.m in Sources */,
 				305042B01C761851004C0B6C /* ViewController.m in Sources */,
 				305042AD1C761851004C0B6C /* AppDelegate.m in Sources */,
 				305042AA1C761851004C0B6C /* main.m in Sources */,
